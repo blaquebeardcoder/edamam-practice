@@ -1,0 +1,44 @@
+:root {
+    --first-color:#F8C870;
+    --second-color:#EC5B24;
+    --fourth-color:white;
+  }
+
+  header {
+    background: var(--first-color);
+    padding: 5px 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  header .app-title {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--second-color);
+    padding: 4px 0;
+    margin-left: 20px;
+    overflow: hidden;
+    float: left;
+  }
+  header nav {
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 40px;
+    padding: 4px 0;
+  }
+  ​
+  header nav ul li {
+    float: right;
+    list-style-type: none;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+  header nav ul li a {
+    color: var(--second-color);
+  }

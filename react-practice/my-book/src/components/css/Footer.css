@@ -1,0 +1,18 @@
+:root {
+    --first-color:#F8C870;
+    --second-color:#EC5B24; 
+  }
+
+  footer {
+    background:var(--first-color);
+    padding: 10px 0 20px;
+    text-align:center;
+    position:-webkit-sticky;
+    position:sticky;
+    bottom: 0;
+  }
+  footer h2 {
+    font-size:0.75rem;
+    color:var(--second-color);
+    font-weight: 600;
+  }

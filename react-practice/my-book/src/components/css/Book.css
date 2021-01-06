@@ -1,0 +1,23 @@
+:root {
+    --first-color:#F8C870;
+    --second-color:#EC5B24;
+    --third-color:light #c40b52;
+  }
+
+  main {
+    background:var(--first-color);
+    border: var(--second-color);
+    border-width: 100px;
+    width: 900px;
+    height: fit-content;
+    text-align:center;
+    bottom: 0;
+    margin: auto;
+  }
+
+  center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
