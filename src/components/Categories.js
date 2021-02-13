@@ -55,6 +55,9 @@ const Categories = () => {
       <li>
           <Link to="/FODMAP">🤷🏾‍♂️FODMAP</Link>
       </li>
+      <li>
+          <Link to="/seafood">🥒Seafood</Link>
+      </li>
     </ul>
   )
 };
