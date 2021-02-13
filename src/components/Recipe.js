@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import RecipeDetails from './RecipeDetails';
 
-
 const Recipe = ({recipe}) => {
 
     const [show, setShow] = useState(false)
