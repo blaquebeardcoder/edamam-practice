@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Header = () => {
     return (
-        <nav>
+        <nav className="header">
             <NavLink exact activeClassName="active" to="/">
                 Home
             </NavLink>
@@ -13,8 +13,11 @@ const Header = () => {
             <NavLink activeClassName="active" to="/contact">
                 Contact
             </NavLink>
+            <NavLink activeClassName="active" to="/team">
+                Team
+            </NavLink>
         </nav>
     );
 }
 
-export default Header
+export default Header;
