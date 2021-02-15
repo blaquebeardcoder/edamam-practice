@@ -6,6 +6,7 @@ import Recipe from './components/Recipe';
 import Categories from './components/Categories';
 import Alert from './components/Alert';
 import { useParams } from 'react-router-dom';
+import HamburgerMenu from "./components/HamburgerMenu";
 
 
 function App() {

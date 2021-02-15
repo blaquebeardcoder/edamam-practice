@@ -58,6 +58,12 @@ const Categories = () => {
       <li>
           <Link to="/seafood">🥒Seafood</Link>
       </li>
+      <li>
+          <Link to="/seafood">🥒Seafood</Link>
+      </li>
+      <li>
+          <Link to="/seafood">🥒Seafood</Link>
+      </li>
     </ul>
   )
 };

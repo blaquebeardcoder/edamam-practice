@@ -11,9 +11,9 @@ import About from './components/About';
 
 const routing = (
   <Router>
-    <div>
-      <Header />
-      <hr />
+    <Header />
+    <HamburgerMenu />
+    <div className="pages">
       <Switch>
         <Route exact path="/" component={App} />
         <Route exact path="/about" component={About} />
