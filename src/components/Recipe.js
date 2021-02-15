@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import RecipeDetails from './RecipeDetails';
 
-
 const Recipe = ({recipe}) => {
 
     const [show, setShow] = useState(false)
@@ -13,9 +12,9 @@ const Recipe = ({recipe}) => {
            <img src={image} alt={label}/>
            <h4>{healthLabels}</h4>
            <a href={url} target="_blank" rel="noopener noreferrer">
-            Source  
+            📃 Source 
             </a> 
-            <button onClick={()=> setShow(!show)}>Ingredients</button> 
+            <button onClick={()=> setShow(!show)}>See Ingredients</button> 
             {show && <RecipeDetails ingredients={ingredients} />}
         </div>
     );
